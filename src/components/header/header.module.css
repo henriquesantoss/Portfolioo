@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: var(--terceary);
+    color: var(--white);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header span {
+    font-size: 1.5rem; /* 24px -> 16px = 1rem */
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--white);
+    padding-right: 1.5rem;
+    font-size: 0.9rem; /* 18px */
+    font-family: 'Poppins', sans-serif;
+}
+
+.header a:hover {
+    color: var(--primary);
+    transition: 0.4s;
+}
+
+.header span{
+    font-family: 'Poppins', sans-serif;
+}
+

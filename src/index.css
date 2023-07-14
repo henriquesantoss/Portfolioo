@@ -1,0 +1,24 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --primary: #2bbde2;
+  --secondary: #2115c7;
+  --terceary: #141d68;
+  --claro: #7fe4db;
+  --soft-white: #f1f1f1;
+  --destaque: #FF00FF;
+  --white: #fefefe;
+  --black: #111;
+  --gray: #222222;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
